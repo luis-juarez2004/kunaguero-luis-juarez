@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="navbar">
+        <div>
+            <img src="../assets/image/balon.jpg" alt="logo" width="100" >
+            <h1> Kun Agüero</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="trayectoria.html">Trayectoria</a>
+                </li>
+                <li>
+                    <a href="estadisticas.html">Estadisticas</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <span>🍔</span>
+    </div>
+    </header>
+    <main>
+        <h2>Contacto</h2>
+        <p>
+            Este espacio esta hecho para que usted pueda contactarse con nosotros, para contarnos su experiencia en el sitio, o para que nos haga saber sobre algun problema o error del sitio.
+        </p>
+        <form action="enviar.js" method="post">
+            <label for="nombre">Nombre :</label>
+            <input type="text" name="Nombre" id="nombre" placeholder="Luis" class="bord" required>
+            <br>
+            <label for="apellido">Apellido :</label>
+            <input type="text" name="Apellido" id="apellido" placeholder="Juarez" class="bord" required>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" name="Email" id="email" placeholder="luisjuarez123@gmail.com" class="bord" required>
+            <br>
+            <label for="observaciones">Observaciones</label>
+            <textarea placeholder="observaciones" class="bord" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>
+            Muchas gracias por visitarnos!!
+        </p>
+    </main>
+    <footer>
+        <div class="pie">
+            <a href="Facebook.com" class="pie__enlaces">Facebook</a>
+            <a href="Instagram.com" class="pie__enlaces">Instagram</a>
+            <a href="twitter.com" class="pie__enlaces">Twitter</a>
+            <a href="whatsapp.com" class="pie__enlaces">Whatsapp</a>
+        </div>
+        <p>Copyright Luis Juarez 2022</p>
+    </footer>
+</body>
+</html>
