@@ -10,13 +10,15 @@ body{
     background-size: cover;
     background-attachment: fixed;
     color: whitesmoke;
-    font-size: 130%;
+    font-size: 120%;
 }
 
+/* INDEX */
 .container {
+    height: 100vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr) ;
-    grid-auto-rows: 1fr;
+    grid-template-columns: repeat (3, 1fr) ;
+    grid-template-rows: repeat (5, 1fr);
 }
 
 .container__titulo {
@@ -28,17 +30,18 @@ body{
 }
 
 .container__texto2 {
-    grid-area: 1/1/2/2;
-    align-self: center;
+    grid-area: 2/1/3/2;
+    /* align-self: end; */
 }
 
 .container__texto3 {
-    grid-area: 2/1/2/2;
+    grid-area: 3/1/4/2;
 }
 
 .container__imagen {
     grid-area: 1/2/3/3;
     align-self: end;
+    height: 90%;
     margin: 6px;
 }
 
@@ -127,6 +130,45 @@ div nav ul li a {
 }
  */
 
+/* Trayectoria */
+.grid {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.grid__titulo {
+    grid-area: 1/1/2/3;
+}
+
+.grid__texto1 {
+    grid-area: 1/1/2/2;
+}
+
+.grid__texto2 {
+    grid-area: 2/1/3/2;
+}
+
+.grid__texto3 {
+    grid-area: 3/1/4/2;
+}
+
+.grid__texto4 {
+    grid-area: 4/1/5/2;
+}
+
+.grid__texto5 {
+    grid-area: 5/1/6/2;
+}
+
+.grid__imagen {
+    grid-area: 1/2/6/3;
+    width: 95%;
+    height: 80%;
+    margin: 6px;
+    margin-top: 50px;
+}
+
 /* galeria */
 .imagen {
     border-radius: 3%;
@@ -137,19 +179,19 @@ div nav ul li a {
     margin-top: 2px;
 }
 
-/* contacto */
+/* Contacto */
 .bord {
     border: 3px solid black;
     margin-top: 5%;
     padding: 1%;
 }
 
-/* footer=pie de pagina */
+/* Footer=pie de pagina */
 footer{
     background-color: #eee;
     text-align: center;
     color: black;
-    margin-top: 30%;
+    margin-top: 150px;
 }
 
 .pie {
@@ -175,15 +217,44 @@ footer{
 }
 
 p {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 section {
     margin-top: 30px;
 }
 
-@media (max-width: 870px) {
+@media (max-width: 897px) {
     .navbar nav {
     display: none;
+    }
+
+    span {
+        display: flex;
+        width: 10%;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 80%;
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .container__imagen {
+        grid-area: 4/1/5/2;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid__imagen {
+        grid-area: 6/1/7/2;
+    }
+
+    footer {
+        margin-top: 20%;
     }
 }
