@@ -224,7 +224,7 @@ section {
     margin-top: 30px;
 }
 
-@media (max-width: 897px) {
+@media (max-width: 870px) {
     .navbar nav {
     display: none;
     }
