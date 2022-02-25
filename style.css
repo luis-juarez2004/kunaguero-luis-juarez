@@ -184,6 +184,39 @@ div nav ul li a {
     padding: 1%;
 }
 
+.movimiento {
+    position: absolute;
+    font-size: 110%;
+    animation: movimiento 3s infinite linear;
+}
+
+@keyframes movimiento {
+    from {
+        top: 150px;
+    }
+    to {
+        top: 130px;
+    }
+}
+
+.transicion {
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    cursor: pointer;
+    transition:all 2s;
+}
+
+.transicion div:hover{
+    height: 70px;
+    width: 100px;
+    background-color:blueviolet ;
+}
+
+.gradiente {
+    background-image: linear-gradient(black, blue);
+}
+
 /* Footer=pie de pagina */
 footer{
     background-color: #eee;

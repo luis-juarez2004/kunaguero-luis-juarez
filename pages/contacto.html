@@ -41,22 +41,26 @@
     </header>
     <main>
         <h2>Contacto</h2>
-        <p>
+        <p class="movimiento">
             Este espacio esta hecho para que usted pueda contactarse con nosotros, para contarnos su experiencia en el sitio, o para que nos haga saber sobre algun problema o error del sitio.
         </p>
         <form action="enviar.js" method="post">
-            <label for="nombre">Nombre :</label>
+            <label class="gradiente" for="nombre">Nombre :</label>
             <input type="text" name="Nombre" id="nombre" placeholder="Luis" class="bord" required>
             <br>
-            <label for="apellido">Apellido :</label>
+            <label class="gradiente" for="apellido">Apellido :</label>
             <input type="text" name="Apellido" id="apellido" placeholder="Juarez" class="bord" required>
             <br>
-            <label for="email">Email :</label>
+            <label class="gradiente" for="email">Email :</label>
             <input type="email" name="Email" id="email" placeholder="luisjuarez123@gmail.com" class="bord" required>
             <br>
-            <label for="observaciones">Observaciones</label>
+            <label class="gradiente" for="observaciones">Observaciones</label>
             <textarea placeholder="observaciones" class="bord" required></textarea>
+            <section class="transicion">
+            <div>
             <input type="submit" value="Enviar">
+            </div>
+        </section>
         </form>
         <p>
             Muchas gracias por visitarnos!!
