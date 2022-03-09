@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    background-image: linear-gradient(red, orange);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 20px;
+    margin: 0% 25px;
+    color: white;
+    text-decoration: none;
+}
+
+span {
+    display: none;
+}
+
+h1 {
+    color: $color-secondary;
+}
+
+h2 {
+    color: $color-primary;
+    margin-bottom: 5px;
+}
+
+p {
+    color:aquamarine;
+}
+
+label {
+    color: $color-label;
+}
+
+input {
+    margin-top: 8px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+button {
+    padding-top: 6px;
+}
+
+footer {
+    margin-top: 210px;
+}
