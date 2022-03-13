@@ -24,6 +24,10 @@ nav ul li a {
   color: white;
   text-decoration: none; }
 
+.publicidad {
+  height: 500px;
+  width: 500px; }
+
 span {
   display: none; }
 
@@ -33,6 +37,18 @@ h1 {
 h2 {
   color: aqua;
   margin-bottom: 5px; }
+
+.division, .division__texto {
+  padding: 2rem;
+  margin: 2rem; }
+  .division__texto {
+    font-size: 30px; }
+
+.lorem {
+  background-color: black;
+  text-align: center;
+  font-size: 40px;
+  padding: 1rem; }
 
 p {
   color: aquamarine; }
@@ -51,3 +67,15 @@ button {
 
 footer {
   margin-top: 210px; }
+
+.btn--twitter {
+  background-color: aquamarine; }
+
+.btn--facebook {
+  background-color: blue; }
+
+.btn--instagram {
+  background-color: pink; }
+
+.btn--whatsapp {
+  background-color: lightgreen; }

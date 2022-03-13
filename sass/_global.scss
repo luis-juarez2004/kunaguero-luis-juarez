@@ -30,6 +30,15 @@ nav ul li a {
     text-decoration: none;
 }
 
+@mixin tamaño ($height, $width) {
+    height: $height;
+    width: $width;
+}
+
+.publicidad {
+    @include tamaño (500px, 500px)
+}
+
 span {
     display: none;
 }
@@ -41,6 +50,30 @@ h1 {
 h2 {
     color: $color-primary;
     margin-bottom: 5px;
+}
+
+.division {
+    padding: 2rem;
+    margin: 2rem;
+
+    &__texto {
+        @extend .division;
+        font-size: 30px;
+    }
+}
+
+$estilos: (
+    color: black,
+    centro: center,
+    tfuente: 40px,
+    1rem: 1rem,
+);
+
+.lorem {
+    background-color: map-get($map: $estilos, $key:color );
+    text-align: map-get($map: $estilos, $key: centro );
+    font-size: map-get($map: $estilos, $key: tfuente );
+    padding: map-get($map: $estilos, $key: 1rem );
 }
 
 p {
@@ -65,4 +98,17 @@ button {
 
 footer {
     margin-top: 210px;
+}
+
+$redes: (
+    twitter: aquamarine,
+    facebook: blue,
+    instagram: pink,
+    whatsapp: lightgreen,
+);
+
+@each $red, $color in $redes {
+    .btn--#{$red} {
+        background-color: $color;
+    }
 }
