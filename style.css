@@ -67,7 +67,7 @@ div {
     margin-top: 10px;
 }
 
-.navbar {
+.navegacion {
     /* width: 100%; */
     display: flex;
     justify-content: space-between;
@@ -75,27 +75,27 @@ div {
     margin: 0 auto;
 }
 
-.navbar div {
+.navegacion div {
     display: flex;
     align-items: center;
     margin: 0;
 }
 
-.navbar div h1 {
+.navegacion div h1 {
     color: black;
     margin-left: 15px;
 }
 
-.navbar nav ul {
+.navegacion nav ul {
     list-style-type: none;
 }
 
-.navbar nav ul li {
+.navegacion nav ul li {
     display: inline-block;
     margin: 0 10px;
 }
 
-.navbar nav ul li a {
+.navegacion nav ul li a {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -191,14 +191,14 @@ div nav ul li a {
     animation: movimiento 3s infinite linear;
 }
 
-@keyframes movimiento {
+/* @keyframes movimiento {
     from {
         top: 150px;
     }
     to {
         top: 130px;
     }
-}
+} */
 
 .transicion {
     height: 50px;
