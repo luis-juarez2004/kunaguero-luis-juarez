@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    background-image: linear-gradient(red, orange);
+}
+
+h1 {
+    color: $color-secondary;
+}
+
+h2 {
+    color: $color-primary;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h3 {
+    color: $color-primary
+}
+
+h4 {
+    color: $color-primary
+}
+
+h5 {
+    color: $color-secondary;
+}
+
+p {
+    color:white;
+}
+
+label {
+    color: $color-label;
+}
+
+input {
+    margin-top: 8px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+button {
+    padding-top: 6px;
+}
+
+footer{
+    background-color: #eee;
+    text-align: center;
+    color: black;
+    margin-top: 330px;
+    padding-bottom: 30px;
+}
+
+.copyright {
+    color: black;
+}
