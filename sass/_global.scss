@@ -10,25 +10,21 @@ body {
 }
 
 h1 {
-    color: $color-secondary;
-}
-
-h2 {
     color: $color-primary;
     margin-bottom: 5px;
     text-align: center;
 }
 
+h2 {
+    color: $color-secondary;
+}
+
 h3 {
-    color: $color-primary
+    color: $color-secondary
 }
 
 h4 {
-    color: $color-primary
-}
-
-h5 {
-    color: $color-secondary;
+    color: $color-secondary
 }
 
 p {

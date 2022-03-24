@@ -8,21 +8,18 @@ body {
   text-align: justify; }
 
 h1 {
-  color: blue; }
-
-h2 {
   color: aqua;
   margin-bottom: 5px;
   text-align: center; }
 
+h2 {
+  color: black; }
+
 h3 {
-  color: aqua; }
+  color: black; }
 
 h4 {
-  color: aqua; }
-
-h5 {
-  color: blue; }
+  color: black; }
 
 p {
   color: white; }
